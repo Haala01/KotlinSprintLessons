@@ -6,9 +6,11 @@ fun main () {
     val studen2 = 4
     val studen3 = 3
     val studen4 = 5
+    val studentCount: Int = 4
 
-    val average = (studen1 + studen2 + studen3 + studen4) / 4f
+    val averageStudents = studen1 + studen2 + studen3 + studen4
+    val averageCount = averageStudents.toFloat() / studentCount
 
-    println(message = String.format("%.2f", average))
+    println(message = String.format("%.2f", averageCount))
 
 }
