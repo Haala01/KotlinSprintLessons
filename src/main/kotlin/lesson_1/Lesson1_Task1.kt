@@ -1,4 +1,4 @@
-package sprint.lessons.lesson1_task1
+package sprint.lessons.lesson_1
 
 fun main () {
 
